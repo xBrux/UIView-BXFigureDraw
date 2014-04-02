@@ -21,6 +21,7 @@
 		17A2CCFF18EC1D1B0004F343 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17A2CCE118EC1D1A0004F343 /* UIKit.framework */; };
 		17A2CD0718EC1D1B0004F343 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17A2CD0518EC1D1B0004F343 /* InfoPlist.strings */; };
 		17A2CD0918EC1D1B0004F343 /* BXFigureDrawTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17A2CD0818EC1D1B0004F343 /* BXFigureDrawTests.m */; };
+		17A2CD1818EC1F500004F343 /* UIView+BXFigureDraw.m in Sources */ = {isa = PBXBuildFile; fileRef = 17A2CD1718EC1F500004F343 /* UIView+BXFigureDraw.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		17A2CD0418EC1D1B0004F343 /* BXFigureDrawTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BXFigureDrawTests-Info.plist"; sourceTree = "<group>"; };
 		17A2CD0618EC1D1B0004F343 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		17A2CD0818EC1D1B0004F343 /* BXFigureDrawTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BXFigureDrawTests.m; sourceTree = "<group>"; };
+		17A2CD1618EC1F500004F343 /* UIView+BXFigureDraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+BXFigureDraw.h"; path = "UIView+BXFigureDraw/UIView+BXFigureDraw.h"; sourceTree = "<group>"; };
+		17A2CD1718EC1F500004F343 /* UIView+BXFigureDraw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+BXFigureDraw.m"; path = "UIView+BXFigureDraw/UIView+BXFigureDraw.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,7 @@
 		17A2CCD118EC1D1A0004F343 = {
 			isa = PBXGroup;
 			children = (
+				17A2CD1218EC1D980004F343 /* UIView+BXFigureDraw */,
 				17A2CCE318EC1D1A0004F343 /* BXFigureDraw */,
 				17A2CD0218EC1D1B0004F343 /* BXFigureDrawTests */,
 				17A2CCDC18EC1D1A0004F343 /* Frameworks */,
@@ -150,6 +154,15 @@
 				17A2CD0518EC1D1B0004F343 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		17A2CD1218EC1D980004F343 /* UIView+BXFigureDraw */ = {
+			isa = PBXGroup;
+			children = (
+				17A2CD1618EC1F500004F343 /* UIView+BXFigureDraw.h */,
+				17A2CD1718EC1F500004F343 /* UIView+BXFigureDraw.m */,
+			);
+			name = "UIView+BXFigureDraw";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,6 +265,7 @@
 			files = (
 				17A2CCF418EC1D1B0004F343 /* BXViewController.m in Sources */,
 				17A2CCEE18EC1D1A0004F343 /* BXAppDelegate.m in Sources */,
+				17A2CD1818EC1F500004F343 /* UIView+BXFigureDraw.m in Sources */,
 				17A2CCEA18EC1D1A0004F343 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
